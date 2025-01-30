@@ -1,0 +1,15 @@
+#Program for Demonstarting the Fun of Arithmetic operators
+#Demonstarting funEx1.py
+a=float(input("Enter the value of a:"))
+b=float(input("Enter the value of b:"))
+print("*"*50)
+print("\t\tTOTAL ARITHMETIC OPERTATORS")
+print("*"*50)
+print("\t\tSUM=({},{})={}".format(a,b,(a+b)))
+print("\t\tSUB=({},{})={}".format(a,b,(a-b)))
+print("\t\tMUL=({},{})={}".format(a,b,(a*b)))
+print("\t\tDIVISION=({},{})={}".format(a,b,(a/b)))
+print("\t\tFLOORDIVISION({},{})={}".format(a,b,(a//b)))
+print("\t\tMDIVISION({},{})={}".format(a,b,(a%b)))
+print("\t\tPOV({},{})={}".format(a,b,(a**b)))
+print("=*"*50)
